@@ -20,4 +20,4 @@ npm run build
 
 ## GitHub Pages
 
-After building, commit the contents of `dist/` and enable GitHub Pages in your repository settings, pointing it to the `dist/` directory on the `main` branch.
+GitHub Pages is deployed automatically using a workflow in `.github/workflows/pages.yml`. On every push to `main`, the action builds the project and publishes the `dist/` folder.
