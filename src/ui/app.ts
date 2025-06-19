@@ -1,5 +1,5 @@
-import { Board } from '../engine/board';
-import { searchSharpMove } from '../engine/search';
+import { Board } from '../engine/board.js';
+import { searchSharpMove } from '../engine/search.js';
 
 const startFEN = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
 
